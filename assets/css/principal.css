@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+}
+
+
+header{
+    background-color: black;
+    padding-bottom:5em ;
+    color: white;
+}
+
+h2{
+    text-align:center;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+#milton{
+    font-size: 2em;
+    text-decoration:none;
+    color: white;
+    font-weight:700;
+}
+
+
+h1{
+    text-align:center;
+    padding-top:0.7em;
+    font-size: 5em ;
+}
+
+.texto1{
+    line-height: 2em; 
+    margin: 7em 0 0 0.5em;
+    font-size: 1.1em;
+}
+p{
+    line-height: 2em; 
+    margin: 2.5em 0 0 2em;
+    font-size: 1.1em;
+    
+}
+
+
+.texto_imagem{
+    background: gray url('../img/joaninha.png') center center no-repeat fixed;
+    background-size: cover;
+    height: 28em;
+}
+
+.imagem_carta{
+    background: gray url('../img/carta.png') center center no-repeat fixed;
+    background-size: cover;
+    height: 28em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.385);
+}
+
+.texto_sombra{
+    
+    margin-left:1.9em ;
+    background-color: rgba(8, 8, 8, 0.633);
+    color: white;
+    width: 12em;
+    position: relative;
+    top: 5.9em;
+    padding-left: 0.4em;
+
+}
+
+footer{
+    background-color: black;
+}
+
+#link_footer {
+    color: white;
+    text-decoration:none;
+
+}
+
+footer > h1{
+    color: white;
+    font-size: 1em;
+}
+@media screen and (min-width:300px){
+    header{
+        padding-bottom:0.5em ;
+
+    }
+    h1{
+        padding: 0.5 0 0.5;
+        font-size: 2em ;
+
+    }
+
+    #milton{
+        font-size: 1em;
+    }
+
+    h2{
+        padding-top: 0.4em;
+        font-size: 1em ;     
+    }
+    footer > h1{
+        color: white;
+        font-size: 0.8em;
+    }
+}
+
+
+
+@media screen and (min-width: 600px) {
+    header{
+        padding-bottom:3em ;
+
+    }
+    h1{
+        padding-top:1em;
+        font-size: 3em ;
+    }
+
+    p{
+        font-size:1.2em;
+    }
+    .texto_sombra{
+        transform:translateY(-5%);
+    }
+    .texto_imagem{
+        height: 30em;
+    }   
+
+    .imagem_carta{
+        height: 30em;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    header{
+        padding-bottom:3.4em ;
+
+    }
+    h1{
+        padding-top:1em;
+        font-size: 3.4em ;
+    }
+    p{
+        font-size:1.4em;
+    }
+    .texto_sombra{
+        transform:translateY(-5%);
+    }
+    .texto_imagem{
+        height: 35em;
+    }   
+
+    .imagem_carta{
+        height: 35em;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    header{
+        padding-bottom:3.8em ;
+
+    }
+    h1{
+        padding-top:1em;
+        font-size: 3.8em ;
+    }
+    p{
+        font-size:1.6em;
+    }
+    .texto_sombra{
+        transform:translateY(-5%);
+    }
+    .texto_imagem{
+        height: 40em;
+    }   
+
+    .imagem_carta{
+        height: 40em;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    header{
+        padding-bottom:4em ;
+
+    }
+    h1{
+        padding-top:1em;
+        font-size: 4em ;
+    }
+
+    p{
+        font-size:1.8em;
+    }
+    .texto_sombra{
+        transform:translateY(-10%);
+    }
+    .texto_imagem{
+        height: 44em;
+    }   
+
+    .imagem_carta{
+        height: 44em;
+    }
+}
+
+@media screen and (min-width: 1030px) {
+    p{
+        font-size:2em;
+    }
+    .texto_sombra{
+        transform:translateY(-13%);
+    }
+    .texto_imagem{
+        height: 46em;
+    }   
+
+    .imagem_carta{
+        height: 46em;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    p{
+        font-size:2.5em;
+    }
+    .texto_sombra{
+        width: 12em;
+        top: 5.9em;
+        padding-left: 0.4em;
+    }
+    .texto_imagem{
+        height: 70em;;
+    }   
+
+    .imagem_carta{
+        height: 70em;;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    header{
+        height: 30em;
+    }
+
+    
+    h1{
+        text-align:center;
+        padding-top:2em;
+        font-size: 5em ;
+    }
+    
+
+    p{
+        font-size:3em;
+    }
+    .texto_sombra{
+        width: 12em;
+        top: 5.9em;
+        padding-left: 0.4em;
+    }
+    .texto_imagem{
+        height: 75em;;
+    }   
+
+    .imagem_carta{
+        height: 75em;;
+    }
+}
